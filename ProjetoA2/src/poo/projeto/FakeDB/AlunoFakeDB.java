@@ -3,13 +3,13 @@ import poo.projeto.dominio.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-public class AlunoFakeDB extends BaseGenericaFakeDB<Aluno>{
+public class AlunoFakeDB extends BaseGenericaFakeDB<Aluno>{ 
     TurmaFakeDB turmas = new TurmaFakeDB();
     ArrayList<Turma> listaTurmas = turmas.getLista();
   
 
     @Override
-    protected void CarregarDados() {//0 - 100 -> Aluno
+    protected void CarregarDados() {//0 - 99 -> Aluno
        this.lista.add(new Aluno(1, "Caio Monteiro", "CM12039", LocalDate.of(2005, 8, 16), "Caio", 1, listaTurmas.get(0), null));
        this.lista.add(new Aluno(2, "Fabricio Ortiz", "FB120983", LocalDate.of(2005, 4, 29), "Fabricio", 1, listaTurmas.get(0), null));
        this.lista.add(new Aluno(3, "Fagner Souza", "FS10213", LocalDate.of(2005, 3,21), "Fagner", 1, listaTurmas.get(0), null));
