@@ -268,6 +268,159 @@ public class NotasTrabalhoFakeDB extends BaseGenericaFakeDB <NotaTrabalho> { // 
        this.lista.add(new NotaTrabalho(633, listaAlunos.get(14), listaTrabalhos.get(29), 5)); 
        this.lista.add(new NotaTrabalho(634, listaAlunos.get(14), listaTrabalhos.get(30), 2)); 
        this.lista.add(new NotaTrabalho(635, listaAlunos.get(14), listaTrabalhos.get(31), 7));
+
+       this.lista.add(new NotaTrabalho(636, listaAlunos.get(15), listaTrabalhos.get(12), 8)); // nota Daniel 6
+       this.lista.add(new NotaTrabalho(637, listaAlunos.get(15), listaTrabalhos.get(13), 4)); 
+       this.lista.add(new NotaTrabalho(638, listaAlunos.get(15), listaTrabalhos.get(14), 3)); 
+       this.lista.add(new NotaTrabalho(639, listaAlunos.get(15), listaTrabalhos.get(15), 6));
+       this.lista.add(new NotaTrabalho(640, listaAlunos.get(15), listaTrabalhos.get(16),6)); 
+       this.lista.add(new NotaTrabalho(641, listaAlunos.get(15), listaTrabalhos.get(17), 8)); 
+       this.lista.add(new NotaTrabalho(642, listaAlunos.get(15), listaTrabalhos.get(18), 3)); 
+       this.lista.add(new NotaTrabalho(643, listaAlunos.get(15), listaTrabalhos.get(19), 2));
+       this.lista.add(new NotaTrabalho(644, listaAlunos.get(15), listaTrabalhos.get(44), 10)); 
+       this.lista.add(new NotaTrabalho(645, listaAlunos.get(15), listaTrabalhos.get(45), 10)); 
+       this.lista.add(new NotaTrabalho(646, listaAlunos.get(15), listaTrabalhos.get(46), 9)); 
+       this.lista.add(new NotaTrabalho(647, listaAlunos.get(15), listaTrabalhos.get(47), 7));
+       this.lista.add(new NotaTrabalho(648, listaAlunos.get(15), listaTrabalhos.get(40), 5)); 
+       this.lista.add(new NotaTrabalho(649, listaAlunos.get(15), listaTrabalhos.get(41), 3)); 
+       this.lista.add(new NotaTrabalho(650, listaAlunos.get(15), listaTrabalhos.get(42), 2)); 
+       this.lista.add(new NotaTrabalho(651, listaAlunos.get(15), listaTrabalhos.get(43), 8));
+       
+       this.lista.add(new NotaTrabalho(652, listaAlunos.get(16), listaTrabalhos.get(12), 10)); // nota Igor 6
+       this.lista.add(new NotaTrabalho(653, listaAlunos.get(16), listaTrabalhos.get(13), 10)); 
+       this.lista.add(new NotaTrabalho(654, listaAlunos.get(16), listaTrabalhos.get(14), 9)); 
+       this.lista.add(new NotaTrabalho(655, listaAlunos.get(16), listaTrabalhos.get(15), 7));
+       this.lista.add(new NotaTrabalho(656, listaAlunos.get(16), listaTrabalhos.get(16),4)); 
+       this.lista.add(new NotaTrabalho(657, listaAlunos.get(16), listaTrabalhos.get(17), 3)); 
+       this.lista.add(new NotaTrabalho(658, listaAlunos.get(16), listaTrabalhos.get(18), 6)); 
+       this.lista.add(new NotaTrabalho(659, listaAlunos.get(16), listaTrabalhos.get(19), 5));
+       this.lista.add(new NotaTrabalho(660, listaAlunos.get(16), listaTrabalhos.get(44),9)); 
+       this.lista.add(new NotaTrabalho(661, listaAlunos.get(16), listaTrabalhos.get(45), 7)); 
+       this.lista.add(new NotaTrabalho(662, listaAlunos.get(16), listaTrabalhos.get(46), 6)); 
+       this.lista.add(new NotaTrabalho(663, listaAlunos.get(16), listaTrabalhos.get(47), 6));
+       this.lista.add(new NotaTrabalho(664, listaAlunos.get(16), listaTrabalhos.get(40), 5)); 
+       this.lista.add(new NotaTrabalho(665, listaAlunos.get(16), listaTrabalhos.get(41), 4)); 
+       this.lista.add(new NotaTrabalho(666, listaAlunos.get(16), listaTrabalhos.get(42), 6)); 
+       this.lista.add(new NotaTrabalho(667, listaAlunos.get(16), listaTrabalhos.get(43), 7)); 
+
+       this.lista.add(new NotaTrabalho(668, listaAlunos.get(17), listaTrabalhos.get(12), 7)); // nota Roberto 6
+       this.lista.add(new NotaTrabalho(669, listaAlunos.get(17), listaTrabalhos.get(13), 7)); 
+       this.lista.add(new NotaTrabalho(670, listaAlunos.get(17), listaTrabalhos.get(14), 6)); 
+       this.lista.add(new NotaTrabalho(671, listaAlunos.get(17), listaTrabalhos.get(15), 5));
+       this.lista.add(new NotaTrabalho(672, listaAlunos.get(17), listaTrabalhos.get(16),10)); 
+       this.lista.add(new NotaTrabalho(673, listaAlunos.get(17), listaTrabalhos.get(17), 10)); 
+       this.lista.add(new NotaTrabalho(674, listaAlunos.get(17), listaTrabalhos.get(18), 9)); 
+       this.lista.add(new NotaTrabalho(675, listaAlunos.get(17), listaTrabalhos.get(19), 8));
+       this.lista.add(new NotaTrabalho(676, listaAlunos.get(17), listaTrabalhos.get(44), 8)); 
+       this.lista.add(new NotaTrabalho(677, listaAlunos.get(17), listaTrabalhos.get(45), 7)); 
+       this.lista.add(new NotaTrabalho(678, listaAlunos.get(17), listaTrabalhos.get(46), 8)); 
+       this.lista.add(new NotaTrabalho(679, listaAlunos.get(17), listaTrabalhos.get(47), 9));
+       this.lista.add(new NotaTrabalho(680, listaAlunos.get(17), listaTrabalhos.get(40), 6)); 
+       this.lista.add(new NotaTrabalho(681, listaAlunos.get(17), listaTrabalhos.get(41), 6)); 
+       this.lista.add(new NotaTrabalho(682, listaAlunos.get(17), listaTrabalhos.get(42), 7)); 
+       this.lista.add(new NotaTrabalho(683, listaAlunos.get(17), listaTrabalhos.get(43), 4));
+       
+       this.lista.add(new NotaTrabalho(684, listaAlunos.get(18), listaTrabalhos.get(8), 6)); // nota Cruz 7
+       this.lista.add(new NotaTrabalho(685, listaAlunos.get(18), listaTrabalhos.get(9), 6)); 
+       this.lista.add(new NotaTrabalho(686, listaAlunos.get(18), listaTrabalhos.get(10), 4)); 
+       this.lista.add(new NotaTrabalho(687, listaAlunos.get(18), listaTrabalhos.get(11), 4));
+       this.lista.add(new NotaTrabalho(688, listaAlunos.get(18), listaTrabalhos.get(24),10)); 
+       this.lista.add(new NotaTrabalho(689, listaAlunos.get(18), listaTrabalhos.get(25), 10)); 
+       this.lista.add(new NotaTrabalho(690, listaAlunos.get(18), listaTrabalhos.get(26), 9)); 
+       this.lista.add(new NotaTrabalho(691, listaAlunos.get(18), listaTrabalhos.get(27), 9));
+       this.lista.add(new NotaTrabalho(692, listaAlunos.get(18), listaTrabalhos.get(20), 4)); 
+       this.lista.add(new NotaTrabalho(693, listaAlunos.get(18), listaTrabalhos.get(21), 2)); 
+       this.lista.add(new NotaTrabalho(694, listaAlunos.get(18), listaTrabalhos.get(22), 1)); 
+       this.lista.add(new NotaTrabalho(695, listaAlunos.get(18), listaTrabalhos.get(23), 7));
+       this.lista.add(new NotaTrabalho(696, listaAlunos.get(18), listaTrabalhos.get(28), 10)); 
+       this.lista.add(new NotaTrabalho(697, listaAlunos.get(18), listaTrabalhos.get(29), 7)); 
+       this.lista.add(new NotaTrabalho(698, listaAlunos.get(18), listaTrabalhos.get(30), 7)); 
+       this.lista.add(new NotaTrabalho(699, listaAlunos.get(18), listaTrabalhos.get(31), 8));
+
+       this.lista.add(new NotaTrabalho(700, listaAlunos.get(19), listaTrabalhos.get(8), 2)); // nota Jackson 7
+       this.lista.add(new NotaTrabalho(701, listaAlunos.get(19), listaTrabalhos.get(9), 10)); 
+       this.lista.add(new NotaTrabalho(702, listaAlunos.get(19), listaTrabalhos.get(10), 8)); 
+       this.lista.add(new NotaTrabalho(703, listaAlunos.get(19), listaTrabalhos.get(11), 9));
+       this.lista.add(new NotaTrabalho(704, listaAlunos.get(19), listaTrabalhos.get(24),10)); 
+       this.lista.add(new NotaTrabalho(705, listaAlunos.get(19), listaTrabalhos.get(25), 9)); 
+       this.lista.add(new NotaTrabalho(706, listaAlunos.get(19), listaTrabalhos.get(26), 8)); 
+       this.lista.add(new NotaTrabalho(707, listaAlunos.get(19), listaTrabalhos.get(27), 10));
+       this.lista.add(new NotaTrabalho(708, listaAlunos.get(19), listaTrabalhos.get(20), 8)); 
+       this.lista.add(new NotaTrabalho(709, listaAlunos.get(19), listaTrabalhos.get(21), 7)); 
+       this.lista.add(new NotaTrabalho(710, listaAlunos.get(19), listaTrabalhos.get(22), 6)); 
+       this.lista.add(new NotaTrabalho(711, listaAlunos.get(19), listaTrabalhos.get(23), 8));
+       this.lista.add(new NotaTrabalho(712, listaAlunos.get(19), listaTrabalhos.get(28), 10)); 
+       this.lista.add(new NotaTrabalho(713, listaAlunos.get(19), listaTrabalhos.get(29),8)); 
+       this.lista.add(new NotaTrabalho(714, listaAlunos.get(19), listaTrabalhos.get(30), 9)); 
+       this.lista.add(new NotaTrabalho(715, listaAlunos.get(19), listaTrabalhos.get(31), 9));
+       
+       this.lista.add(new NotaTrabalho(716, listaAlunos.get(20), listaTrabalhos.get(8), 9)); // nota Doc 7
+       this.lista.add(new NotaTrabalho(717, listaAlunos.get(20), listaTrabalhos.get(9), 8)); 
+       this.lista.add(new NotaTrabalho(718, listaAlunos.get(20), listaTrabalhos.get(10), 9)); 
+       this.lista.add(new NotaTrabalho(719, listaAlunos.get(20), listaTrabalhos.get(11), 10));
+       this.lista.add(new NotaTrabalho(720, listaAlunos.get(20), listaTrabalhos.get(24),10)); 
+       this.lista.add(new NotaTrabalho(721, listaAlunos.get(20), listaTrabalhos.get(25), 10)); 
+       this.lista.add(new NotaTrabalho(722, listaAlunos.get(20), listaTrabalhos.get(26), 7)); 
+       this.lista.add(new NotaTrabalho(723, listaAlunos.get(20), listaTrabalhos.get(27), 9));
+       this.lista.add(new NotaTrabalho(724, listaAlunos.get(20), listaTrabalhos.get(20), 6)); 
+       this.lista.add(new NotaTrabalho(725, listaAlunos.get(20), listaTrabalhos.get(21), 6)); 
+       this.lista.add(new NotaTrabalho(726, listaAlunos.get(20), listaTrabalhos.get(22), 5)); 
+       this.lista.add(new NotaTrabalho(727, listaAlunos.get(20), listaTrabalhos.get(23), 9));
+       this.lista.add(new NotaTrabalho(728, listaAlunos.get(20), listaTrabalhos.get(28), 10)); 
+       this.lista.add(new NotaTrabalho(729, listaAlunos.get(20), listaTrabalhos.get(29), 8)); 
+       this.lista.add(new NotaTrabalho(730, listaAlunos.get(20), listaTrabalhos.get(30), 8)); 
+       this.lista.add(new NotaTrabalho(731, listaAlunos.get(20), listaTrabalhos.get(31),7));
+
+       this.lista.add(new NotaTrabalho(732, listaAlunos.get(21), listaTrabalhos.get(32), 6)); // nota Fabricio 8
+       this.lista.add(new NotaTrabalho(733, listaAlunos.get(21), listaTrabalhos.get(33), 8)); 
+       this.lista.add(new NotaTrabalho(734, listaAlunos.get(21), listaTrabalhos.get(34), 5)); 
+       this.lista.add(new NotaTrabalho(735, listaAlunos.get(21), listaTrabalhos.get(35), 3));
+       this.lista.add(new NotaTrabalho(736, listaAlunos.get(21), listaTrabalhos.get(36),7)); 
+       this.lista.add(new NotaTrabalho(737, listaAlunos.get(21), listaTrabalhos.get(37), 8)); 
+       this.lista.add(new NotaTrabalho(738, listaAlunos.get(21), listaTrabalhos.get(38), 6)); 
+       this.lista.add(new NotaTrabalho(739, listaAlunos.get(21), listaTrabalhos.get(39), 9));
+       this.lista.add(new NotaTrabalho(740, listaAlunos.get(21), listaTrabalhos.get(8), 5)); 
+       this.lista.add(new NotaTrabalho(741, listaAlunos.get(21), listaTrabalhos.get(9), 6)); 
+       this.lista.add(new NotaTrabalho(742, listaAlunos.get(21), listaTrabalhos.get(10), 7)); 
+       this.lista.add(new NotaTrabalho(743, listaAlunos.get(21), listaTrabalhos.get(11), 7));
+       this.lista.add(new NotaTrabalho(744, listaAlunos.get(21), listaTrabalhos.get(16), 9)); 
+       this.lista.add(new NotaTrabalho(755, listaAlunos.get(21), listaTrabalhos.get(17), 8)); 
+       this.lista.add(new NotaTrabalho(756, listaAlunos.get(21), listaTrabalhos.get(18), 7)); 
+       this.lista.add(new NotaTrabalho(757, listaAlunos.get(21), listaTrabalhos.get(19), 8));
+
+       this.lista.add(new NotaTrabalho(758, listaAlunos.get(22), listaTrabalhos.get(32), 9)); // nota Everton 8
+       this.lista.add(new NotaTrabalho(759, listaAlunos.get(22), listaTrabalhos.get(33), 8)); 
+       this.lista.add(new NotaTrabalho(760, listaAlunos.get(22), listaTrabalhos.get(34), 8)); 
+       this.lista.add(new NotaTrabalho(761, listaAlunos.get(22), listaTrabalhos.get(35), 7));
+       this.lista.add(new NotaTrabalho(762, listaAlunos.get(22), listaTrabalhos.get(36),10)); 
+       this.lista.add(new NotaTrabalho(763, listaAlunos.get(22), listaTrabalhos.get(37), 9)); 
+       this.lista.add(new NotaTrabalho(764, listaAlunos.get(22), listaTrabalhos.get(38), 9)); 
+       this.lista.add(new NotaTrabalho(765, listaAlunos.get(22), listaTrabalhos.get(39), 8));
+       this.lista.add(new NotaTrabalho(766, listaAlunos.get(22), listaTrabalhos.get(8), 6)); 
+       this.lista.add(new NotaTrabalho(767, listaAlunos.get(22), listaTrabalhos.get(9), 7)); 
+       this.lista.add(new NotaTrabalho(768, listaAlunos.get(22), listaTrabalhos.get(10), 4)); 
+       this.lista.add(new NotaTrabalho(769, listaAlunos.get(22), listaTrabalhos.get(11), 5));
+       this.lista.add(new NotaTrabalho(770, listaAlunos.get(22), listaTrabalhos.get(16), 8)); 
+       this.lista.add(new NotaTrabalho(771, listaAlunos.get(22), listaTrabalhos.get(17), 7)); 
+       this.lista.add(new NotaTrabalho(772, listaAlunos.get(22), listaTrabalhos.get(18), 6)); 
+       this.lista.add(new NotaTrabalho(773, listaAlunos.get(22), listaTrabalhos.get(19), 8));
+
+       this.lista.add(new NotaTrabalho(774, listaAlunos.get(23), listaTrabalhos.get(32), 7)); // nota Hemerson 8
+       this.lista.add(new NotaTrabalho(775, listaAlunos.get(23), listaTrabalhos.get(33), 6)); 
+       this.lista.add(new NotaTrabalho(776, listaAlunos.get(23), listaTrabalhos.get(34), 8)); 
+       this.lista.add(new NotaTrabalho(777, listaAlunos.get(23), listaTrabalhos.get(35), 7));
+       this.lista.add(new NotaTrabalho(778, listaAlunos.get(23), listaTrabalhos.get(36),10)); 
+       this.lista.add(new NotaTrabalho(779, listaAlunos.get(23), listaTrabalhos.get(37), 9)); 
+       this.lista.add(new NotaTrabalho(780, listaAlunos.get(23), listaTrabalhos.get(38), 6)); 
+       this.lista.add(new NotaTrabalho(781, listaAlunos.get(23), listaTrabalhos.get(39), 6));
+       this.lista.add(new NotaTrabalho(782, listaAlunos.get(23), listaTrabalhos.get(8), 8)); 
+       this.lista.add(new NotaTrabalho(783, listaAlunos.get(23), listaTrabalhos.get(9), 6)); 
+       this.lista.add(new NotaTrabalho(784, listaAlunos.get(23), listaTrabalhos.get(10), 8)); 
+       this.lista.add(new NotaTrabalho(785, listaAlunos.get(23), listaTrabalhos.get(11), 8));
+       this.lista.add(new NotaTrabalho(786, listaAlunos.get(23), listaTrabalhos.get(16), 10)); 
+       this.lista.add(new NotaTrabalho(787, listaAlunos.get(23), listaTrabalhos.get(17), 10)); 
+       this.lista.add(new NotaTrabalho(788, listaAlunos.get(23), listaTrabalhos.get(18), 9)); 
+       this.lista.add(new NotaTrabalho(789, listaAlunos.get(23), listaTrabalhos.get(19), 8));
     }
 
     public NotasTrabalhoFakeDB() {

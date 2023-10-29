@@ -69,11 +69,11 @@ public class TurmaFakeDB extends BaseGenericaFakeDB<Turma>{ // 100 - 199 -> turm
         this.listaDisciplinasTurma7.add(listaDisciplinas.get(2));
         this.listaDisciplinasTurma7.add(listaDisciplinas.get(6)); 
         this.listaDisciplinasTurma7.add(listaDisciplinas.get(5));
-        this.listaDisciplinasTurma7.add(listaDisciplinas.get(7));// Ed fisica, Física, Biologia e Química
+        this.listaDisciplinasTurma7.add(listaDisciplinas.get(7));// Disciplinas da turma 7 = Ed fisica, Física, Biologia e Química
         this.listaDisciplinasTurma8.add(listaDisciplinas.get(8));
         this.listaDisciplinasTurma8.add(listaDisciplinas.get(9)); 
         this.listaDisciplinasTurma8.add(listaDisciplinas.get(2));
-        this.listaDisciplinasTurma8.add(listaDisciplinas.get(4)); // Inglês, espanhol, Ed Física e História
+        this.listaDisciplinasTurma8.add(listaDisciplinas.get(4)); // Disciplinas da Turma 8 = Inglês, espanhol, Ed Física e História
         
         
     }
