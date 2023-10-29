@@ -4,12 +4,13 @@ import java.time.LocalDate;
 import poo.projeto.dominio.*;
 
 public class ProfessorFakeDB extends BaseGenericaFakeDB<Professor>{ //200 - 299 -> professor
-    TurmaFakeDB t1 = new TurmaFakeDB();
-    ArrayList<Turma> listaTurmas = t1.getLista();
-    ArrayList<Turma> listaTurmaProfessor1 = new ArrayList<Turma>();
-    ArrayList<Turma> listaTurmaProfessor2 = new ArrayList<Turma>();
-    ArrayList<Turma> listaTurmaProfessor3 = new ArrayList<Turma>();
-    ArrayList<Turma> listaTurmaProfessor4 = new ArrayList<Turma>();
+    private TurmaFakeDB t1 = new TurmaFakeDB();
+    private ArrayList<Turma> listaTurmas = t1.getLista();
+    private ArrayList<Turma> listaTurmaProfessor1 = new ArrayList<Turma>();
+    private ArrayList<Turma> listaTurmaProfessor2 = new ArrayList<Turma>();
+    private ArrayList<Turma> listaTurmaProfessor3 = new ArrayList<Turma>();
+    private ArrayList<Turma> listaTurmaProfessor4 = new ArrayList<Turma>();
+
     @Override
     protected void CarregarDados() {
         CarregarTurmas();

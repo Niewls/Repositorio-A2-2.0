@@ -3,30 +3,30 @@ import poo.projeto.dominio.*;
 import java.util.ArrayList;
 
 public class TurmaFakeDB extends BaseGenericaFakeDB<Turma>{ // 100 - 199 -> turma
-    DisciplinaFakeDB disciplinas = new DisciplinaFakeDB();
-    ArrayList<Disciplina> listaDisciplinas = disciplinas.getLista();
-    ArrayList<Disciplina> listaDisciplinasTurma1 = new ArrayList<Disciplina>();
-    ArrayList<Disciplina> listaDisciplinasTurma2 = new ArrayList<Disciplina>();
-    ArrayList<Disciplina> listaDisciplinasTurma3 = new ArrayList<Disciplina>();
-    ArrayList<Disciplina> listaDisciplinasTurma4 = new ArrayList<Disciplina>();
-    ArrayList<Disciplina> listaDisciplinasTurma5 = new ArrayList<Disciplina>();
-    ArrayList<Disciplina> listaDisciplinasTurma6 = new ArrayList<Disciplina>();
-    ArrayList<Disciplina> listaDisciplinasTurma7 = new ArrayList<Disciplina>();
-    ArrayList<Disciplina> listaDisciplinasTurma8 = new ArrayList<Disciplina>();
+    private DisciplinaFakeDB disciplinas = new DisciplinaFakeDB();
+    private ArrayList<Disciplina> listaDisciplinas = disciplinas.getLista();
+    private ArrayList<Disciplina> listaDisciplinasTurma1 = new ArrayList<Disciplina>();
+    private ArrayList<Disciplina> listaDisciplinasTurma2 = new ArrayList<Disciplina>();
+    private ArrayList<Disciplina> listaDisciplinasTurma3 = new ArrayList<Disciplina>();
+    private ArrayList<Disciplina> listaDisciplinasTurma4 = new ArrayList<Disciplina>();
+    private ArrayList<Disciplina> listaDisciplinasTurma5 = new ArrayList<Disciplina>();
+    private ArrayList<Disciplina> listaDisciplinasTurma6 = new ArrayList<Disciplina>();
+    private ArrayList<Disciplina> listaDisciplinasTurma7 = new ArrayList<Disciplina>();
+    private ArrayList<Disciplina> listaDisciplinasTurma8 = new ArrayList<Disciplina>();
 
-    ProfessorFakeDB professores = new ProfessorFakeDB();
-    ArrayList<Professor> listaProfessores = professores.getLista();
+    private ProfessorFakeDB professores = new ProfessorFakeDB();
+    private ArrayList<Professor> listaProfessores = professores.getLista();
 
-    AlunoFakeDB alunos = new AlunoFakeDB();
-    ArrayList<Aluno> listaAlunos = alunos.getLista();
-    ArrayList<Aluno> listaAlunosTurma1 = new ArrayList<Aluno>();
-    ArrayList<Aluno> listaAlunosTurma2 = new ArrayList<Aluno>();
-    ArrayList<Aluno> listaAlunosTurma3 = new ArrayList<Aluno>();
-    ArrayList<Aluno> listaAlunosTurma4 = new ArrayList<Aluno>();
-    ArrayList<Aluno> listaAlunosTurma5 = new ArrayList<Aluno>();
-    ArrayList<Aluno> listaAlunosTurma6 = new ArrayList<Aluno>();
-    ArrayList<Aluno> listaAlunosTurma7 = new ArrayList<Aluno>();
-    ArrayList<Aluno> listaAlunosTurma8 = new ArrayList<Aluno>();
+    private AlunoFakeDB alunos = new AlunoFakeDB();
+    private ArrayList<Aluno> listaAlunos = alunos.getLista();
+    private ArrayList<Aluno> listaAlunosTurma1 = new ArrayList<Aluno>();
+    private ArrayList<Aluno> listaAlunosTurma2 = new ArrayList<Aluno>();
+    private ArrayList<Aluno> listaAlunosTurma3 = new ArrayList<Aluno>();
+    private ArrayList<Aluno> listaAlunosTurma4 = new ArrayList<Aluno>();
+    private ArrayList<Aluno> listaAlunosTurma5 = new ArrayList<Aluno>();
+    private ArrayList<Aluno> listaAlunosTurma6 = new ArrayList<Aluno>();
+    private ArrayList<Aluno> listaAlunosTurma7 = new ArrayList<Aluno>();
+    private ArrayList<Aluno> listaAlunosTurma8 = new ArrayList<Aluno>();
     
     @Override
     protected void CarregarDados(){

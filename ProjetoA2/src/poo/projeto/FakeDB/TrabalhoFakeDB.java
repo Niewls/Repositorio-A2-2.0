@@ -3,8 +3,8 @@ import java.util.ArrayList;
 import poo.projeto.dominio.*;
 
 public class TrabalhoFakeDB extends BaseGenericaFakeDB <Trabalho> { // 300 - 399
-    DisciplinaFakeDB disciplinas = new DisciplinaFakeDB();
-    ArrayList<Disciplina> listaDisciplinas = disciplinas.getLista();
+    private DisciplinaFakeDB disciplinas = new DisciplinaFakeDB();
+    private ArrayList<Disciplina> listaDisciplinas = disciplinas.getLista();
 
     @Override
     protected void CarregarDados() {
@@ -52,11 +52,15 @@ public class TrabalhoFakeDB extends BaseGenericaFakeDB <Trabalho> { // 300 - 399
         this.lista.add(new Trabalho(341, listaDisciplinas.get(10), "Trabalho 1 Filosofia"));
         this.lista.add(new Trabalho(342, listaDisciplinas.get(10), "Trabalho 2 Filosofia"));
         this.lista.add(new Trabalho(343, listaDisciplinas.get(10), "Trabalho 3 Filosofia"));
-        this.lista.add(new Trabalho(345, listaDisciplinas.get(10), "Trabalho 4 Filosofia"));
-        this.lista.add(new Trabalho(346, listaDisciplinas.get(11), "Trabalho 1 Sociologia"));
-        this.lista.add(new Trabalho(347, listaDisciplinas.get(11), "Trabalho 2 Sociologia"));
-        this.lista.add(new Trabalho(348, listaDisciplinas.get(11), "Trabalho 3 Sociologia"));
-        this.lista.add(new Trabalho(349, listaDisciplinas.get(11), "Trabalho 4 Sociologia"));
+        this.lista.add(new Trabalho(344, listaDisciplinas.get(10), "Trabalho 4 Filosofia"));
+        this.lista.add(new Trabalho(345, listaDisciplinas.get(11), "Trabalho 1 Sociologia"));
+        this.lista.add(new Trabalho(346, listaDisciplinas.get(11), "Trabalho 2 Sociologia"));
+        this.lista.add(new Trabalho(347, listaDisciplinas.get(11), "Trabalho 3 Sociologia"));
+        this.lista.add(new Trabalho(348, listaDisciplinas.get(11), "Trabalho 4 Sociologia"));
+    }
+
+    public TrabalhoFakeDB() {
+        super();
     }
     
     
